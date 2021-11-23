@@ -17,9 +17,18 @@ Project 4 Index Homepage
         <p>
  	      	<a href="Index.php"> My To-Do Lists </a>
         </p>
-      
+
         <p>//need to make this call the Logout() function
  	      	<a href="Login.php"> Logout </a>
+        </p>
+        <p>
+            Your Lists:
+
+            <div>
+                datbase list items here
+                <a href="ViewList.php"> View Tasks </a>
+            </div>
+
         </p>
       
     <form action="Create.php" method="POST">
@@ -34,8 +43,7 @@ Project 4 Index Homepage
         
     </body>
 
-
-<?php
+    <?php
 
         function createList(){
 
