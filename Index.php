@@ -18,7 +18,7 @@ Project 4 Index Homepage
  	      	<a href="Index.php"> My To-Do Lists </a>
         </p>
       
-        <p>
+        <p>//need to make this call the Logout() function
  	      	<a href="Login.php"> Logout </a>
         </p>
       
