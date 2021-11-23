@@ -28,9 +28,19 @@ Project 4 Index Homepage
         <p>List Title</p>
           <input type="text" name='title'/>
       
-        <input type="submit" value="Create List" />
+        <input type="submit" value="Create List" onclick = "createList()" />
 
     </form>
         
     </body>
+
+
+<?php
+
+        function createList(){
+
+
+        }
+
+    ?>
 </html>
