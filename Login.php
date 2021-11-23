@@ -24,9 +24,11 @@ Project 4 Login Page
 	
 	<body>
 	
-		<h1>Login</h1>
 		
+		<h1>Login</h1>
 		<h3>CSC 390 Project 4</h3>
+		
+		
         
         </body>
 
