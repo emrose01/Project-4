@@ -24,7 +24,12 @@ Project 4 Login Page
             </form>
         </p>
 
-        <?php
+        <p>
+            <br>
+            <h4><a href = "UserRegistration.php" > Click here to Register! </a></h4>
+        </p>
+
+<!--         <?php                          //In the works!!
             include_once 'submitLogin.php';
             
                 $username = $_POST["username"];
@@ -33,7 +38,7 @@ Project 4 Login Page
                 $newLog = new Userauthenticator();
                 $newLog ->authenticate($username, $password);
             
-        ?>
+        ?> -->
         
     </body>
 </html>
