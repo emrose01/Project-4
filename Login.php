@@ -17,10 +17,10 @@ Project 4 Login Page
             <br>
             <form method = "post" action = "" >
 
-                Username: <input class = "input" type = "text" name = "username"/> <br><br>
-                Password: <input class = "input" type = "text" name = "password"/> <br><br>
+                Username: <input type = "text" name = "username"/> <br><br>
+                Password: <input type = "text" name = "password"/> <br><br>
 
-                <button class = "button" type = "submit" name = "submit">Login</button>
+                <button type = "submit" name = "submit">Login</button>
             </form>
         </p>
 
