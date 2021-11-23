@@ -12,18 +12,13 @@ class Userauthenticator{
         return $this -> loggedIn;
     }
     function authenticate($username, $password){
-        
-        $usr = "ISTHISSAFE?!";
-        $psw = "noabsolutelynot!";
 
-        if($username == $usr && $password == $psw){
+        if($username ==  && $password == ){
         
             $this -> logUserIn($username);
             return true;
         }
         else{
-            echo "I gave you the username and password"
-            . "<br> How did you get it wrong :(";
             return false;
         }
     }
