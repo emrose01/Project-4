@@ -7,29 +7,33 @@ CSC 390
 Project 4 Login Page
 -->
 
-<?php
+<?php include_once 'header.php'; ?>
 
-
-
-
-
-?>
-
-<html>
-		<head>
-			<title>
-			Project 4 Login
-			</title>
-	 	 </head>
-	
-	<body>
-	
-		
-		<h1>Login</h1>
-		<h3>CSC 390 Project 4</h3>
-		
-		
+    <body>
         
-        </body>
+        <h3> Project 4 Login </h3>
+        <hr>
+        <p>
+            <br>
+            <form method = "post" action = "" >
 
+                Username: <input class = "input" type = "text" name = "username"/> <br><br>
+                Password: <input class = "input" type = "text" name = "password"/> <br><br>
+
+                <button class = "button" type = "submit" name = "submit">Login</button>
+            </form>
+        </p>
+
+        <?php
+            include_once 'submitLogin.php';
+            
+                $username = $_POST["username"];
+                $password = $_POST["password"];
+
+                $newLog = new Userauthenticator();
+                $newLog ->authenticate($username, $password);
+            
+        ?>
+        
+    </body>
 </html>
