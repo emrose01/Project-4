@@ -1,3 +1,12 @@
+<!--
+Emily Morton
+Cy Kovachevich
+Ryan Mills
+2 December 2021
+CSC 390
+Project 4 Login Page
+-->
+
 <?php
 
 
@@ -9,13 +18,16 @@
 <html>
 		<head>
 			<title>
-			Login
+			Project 4 Login
 			</title>
 	 	 </head>
 	
-		 <body>
-
+	<body>
+	
+		<h1>Login</h1>
+		
+		<h3>CSC 390 Project 4</h3>
         
-    </body>
+        </body>
 
 </html>
