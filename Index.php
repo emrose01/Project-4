@@ -11,33 +11,35 @@ Project 4 Index Homepage
 
     <body>
         
-        <h3> Project 4 To-Do List</h3>
-        <hr>
+        <h2> Project 4 To-Do List</h2>
       
-        <p>
- 	      	<a href="Index.php"> My To-Do Lists </a>
-        </p>
+        <nav>
+                <a class = "headerButton" href="Index.php"> My To-Do Lists </a>
+       
+            <!-- need to make this call the Logout() function -->
+                <a class = "headerButton" href="Login.php"> Logout </a>
 
-        <p>//need to make this call the Logout() function
- 	      	<a href="Login.php"> Logout </a>
-        </p>
+        </nav>
+
+        <hr>
+
         <p>
             Your Lists:
 
-            <div>
-                datbase list items here
+            <div class = "dataList">
+                datbase list items here <br>
                 <a href="ViewList.php"> View Tasks </a>
             </div>
 
         </p>
       
     <form action="Create.php" method="POST">
-      
+        <br><br>
         <h4> Create a new To-Do List </h4>
         <p>List Title</p>
-          <input type="text" name='title'/>
-      
-        <input type="submit" value="Create List" onclick = "createList()" />
+        <input class = "input" type="text" name='title'/>
+
+        <input class = "submit" type="submit" value="Create List" onclick = "createList()" />
 
     </form>
         
