@@ -11,34 +11,34 @@ Project 4 Login Page
 
     <body>
         
-        <h3> Project 4 Login </h3>
+        <h2> Project 4 Login </h2>
         <hr>
         <p>
             <br>
             <form method = "post" action = "" >
 
-                Username: <input type = "text" name = "username"/> <br><br>
-                Password: <input type = "text" name = "password"/> <br><br>
+                Username: <input class = "input" type = "text" name = "username"/> <br><br>
+                Password: <input class = "input" type = "text" name = "password"/> <br><br>
 
-                <button type = "submit" name = "submit">Login</button>
+                <button class = "submit" type = "submit" name = "submit">Login</button>
             </form>
         </p>
 
+
         <p>
-            <br>
             <h4><a href = "UserRegistration.php" > Click here to Register! </a></h4>
         </p>
 
-<!--         <?php                          //In the works!!
-            include_once 'submitLogin.php';
+        <?php
+            // include_once 'submitLogin.php';
             
-                $username = $_POST["username"];
-                $password = $_POST["password"];
+            //     $username = $_POST["username"];
+            //     $password = $_POST["password"];
 
-                $newLog = new Userauthenticator();
-                $newLog ->authenticate($username, $password);
+            //     $newLog = new Userauthenticator();
+            //     $newLog ->authenticate($username, $password);
             
-        ?> -->
+        ?>
         
     </body>
 </html>
