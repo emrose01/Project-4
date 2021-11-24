@@ -11,17 +11,17 @@ Project 4 User Registration
 
     <body>
         
-        <h3> Project 4 User Registration </h3>
+        <h2> Project 4 User Registration </h2>
         <hr>
         <p>
             <br>
             <form method = "post" action = "" >
 
-                Name: <input type = "text" name = "name"/> <br><br>
-                Email: <input type = "text" name = "email"/> <br><br>
-                Password: <input type = "text" name = "password"/> <br><br>
+                Name: <input class = "input" type = "text" name = "name"/> <br><br>
+                Email: <input class = "input" type = "text" name = "email"/> <br><br>
+                Password: <input class = "input" type = "text" name = "password"/> <br><br>
 
-                <button type = "submit" name = "submit">Register</button>
+                <button class = "submit" type = "submit" name = "submit">Register</button>
             </form>
         </p>
 
