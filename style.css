@@ -1,0 +1,53 @@
+body {
+    background-color: #2A7E93;
+}
+h2{
+    color:black;
+    font-family:'Lucida Sans';
+    font-weight: 600;
+    text-align: center;
+
+}
+h4{
+    color:black;
+    font-family:'Lucida Sans';
+    font-size: 100%
+}
+hr{
+    border: 3px solid black;
+}
+a:link{
+    color:white;
+    font-family: 'Lucida Sans';
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.dataList{
+    border: 4px outset black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.submit{
+    color:black;
+    background-color: #2A7E93;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    border-radius: 8px;
+    border-color: black;
+}
+.input{
+    border-radius: 8px;
+    background-color: #2A7E93;
+    border-color: black;
+    font-size: 100%;
+}
+p{
+    color: black;
+    font-family:'Lucida Sans';
+    font-size: 100%
+}
